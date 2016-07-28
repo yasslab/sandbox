@@ -1,0 +1,9 @@
+source_repository_url: https://github.com/yasslab/sandbox.git
+target_repository_url: https://github.com/yasslab/sandbox.git
+source_branch: english
+target_branch: japanese
+source_lang: en
+target_lang: ja
+paths:
+  README.md: README.{{target_lang}}.md
+  doc/*.md: doc/{{target_lang}}/{{basename}}.md
